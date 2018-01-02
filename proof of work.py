@@ -8,9 +8,8 @@ examp_ch ='YuNkB4aAPeIR629Tj0p6phbYT'
 def genration(challenge = examp_ch , size = 25):
 
 	answer = ''.join(random.choice(string.ascii_lowercase +
-								 string.ascii_uppercase +
-								 string.digits 
-								 ) for x in range(size)
+				       string.ascii_uppercase +
+				       string.digits ) for x in range(size)
 			 	)
 	
 	atempt = challenge + answer
